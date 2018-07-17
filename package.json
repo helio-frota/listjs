@@ -1,6 +1,6 @@
 {
   "name": "listjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display all JS files of a Node.js project.",
   "main": "index.js",
   "directories": {
