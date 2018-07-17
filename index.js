@@ -8,7 +8,6 @@ const readdir = require('recursive-readdir');
 const exclude = (file, stats) => {
   return (file.includes('node_modules') ||
           file.includes('.git') ||
-          file.includes('doc') ||
           file.includes('dist') ||
           file.includes('docs') ||
           file.includes('license') ||

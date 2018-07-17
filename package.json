@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/helio-frota/listjs#readme",
   "dependencies": {
-    "recursive-readdir": "^2.2.1"
+    "recursive-readdir": "^2.2.2"
   },
   "devDependencies": {
-    "jest": "^22.0.1"
+    "jest": "^23.4.1"
   }
 }
