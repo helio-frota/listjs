@@ -1,12 +1,13 @@
 'use strict';
 
 const listJS = require('../index');
+const path = require('path');
 
 test('two JS files found.', () => {
   expect.assertions(1);
   return listJS('.')
     .then(data => {
-      expect(data).toEqual(['index.js', 'test/listjs.test.js']);
+      expect(data).toEqual(['index.js', `test${path.sep}listjs.test.js`]);
     })
     .catch(e => expect(e).toMatch('error'));
 });
