@@ -4,8 +4,11 @@ node_js:
   - lts/*
   - 10
 
+install:
+  - npm ci
+
 script:
-   - npm test
+  - npm test
 
 branches:
   only:
