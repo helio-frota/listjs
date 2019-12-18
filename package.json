@@ -36,6 +36,6 @@
     "recursive-readdir": "^2.2.2"
   },
   "devDependencies": {
-    "jest": "^23.1.0"
+    "jest": "^24.9.0"
   }
 }
